@@ -21,7 +21,7 @@ pip install whatsappas
 >>> send_messages()
 ```
 
-# Usage 
+# Usage and cautions
 
 * Support sending automatic messages and/or photos to numbers and groups.
 
@@ -29,11 +29,11 @@ pip install whatsappas
 
 * The library is built using essencialy [Selenium](https://www.selenium.dev/selenium/docs/api/py/api.html) and with all it's caveats.
 
-* The whatsapp doesn't support this type of activity and the risc of having your account banned is significantly even with all the counter measurements made in this library.
-
 * .ipynb files can face problems while running the function try to use .py scripts.
 
 * A temporary file is created to keep count of the current position in the csv file. Set the parameter to *False* if you dont want to start from the previous position.
+
+* The whatsapp doesn't support this type of activity and the risc of having your account banned is significantly even with all the counter measurements made in this library.
 
 # Supported file
 
@@ -41,8 +41,8 @@ pip install whatsappas
 
 * The header must be *Message;NumberOrGroup;photo_path*
 
-* The 'separator' in the csv must be ';'.
+* The *separator* in the csv must be *;* (semicolon).
 
-* Paths for the photos must be full 'C:\Users\CURRENT_USER\Desktop)' or blank if you just want the message to be sent.
+* Paths for the photos must be full *C:\Users\CURRENT_USER\Desktop* or *blank* if you just want the message to be sent.
 
 * Cellphone numbers can vary from country to country so be aware of how the Whatsapp API uses your cellphone number pattern in your country [Explication example for Brazilian numbering](https://faq.whatsapp.com/5913398998672934/). In the .csv example file has the USA and Brazil patterns of cellphone number usage respectively.
