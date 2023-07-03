@@ -29,7 +29,7 @@ pip install whatsappas
 
 * The library is built using essencialy [Selenium](https://www.selenium.dev/selenium/docs/api/py/api.html) and with all it's caveats.
 
-* .ipynb files can face problems while running the function try to use .py scripts.
+* *.ipynb* files can face problems while running the function try to use *.py* scripts.
 
 * A temporary file is created to keep count of the current position in the csv file. Set the parameter to *False* if you dont want to start from the previous position.
 
@@ -37,7 +37,7 @@ pip install whatsappas
 
 # Supported file
 
-* The library only supports **.csv files** that follows the specific structure [Example .csv](https://github.com/guilhermehuther/whatsapp_automatic_sender/blob/main/example.csv).
+* The library only supports ***.csv files*** that follows the specific structure [Example .csv](https://github.com/guilhermehuther/whatsapp_automatic_sender/blob/main/example.csv).
 
 * The header must be *Message;NumberOrGroup;photo_path*
 
