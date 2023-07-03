@@ -19,6 +19,7 @@ pip install whatsappas
 ``` python
 >>> from whatsappas import send_messages
 >>> send_messages()
+```
 
 # Usage 
 
