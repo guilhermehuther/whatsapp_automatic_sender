@@ -37,7 +37,7 @@ pip install whatsappas
 
 # Supported file
 
-* The library only supports **.csv files** that follows the specific structure [Example .csv](https://github.com/guilhermehuther/whatsappas/blob/main/example.csv).
+* The library only supports **.csv files** that follows the specific structure [Example .csv](https://github.com/guilhermehuther/whatsapp_automatic_sender/blob/main/example.csv).
 
 * The header must be *Message;NumberOrGroup;photo_path*
 
