@@ -37,7 +37,7 @@ pip install whatsappas
 
 # Supported file
 
-* The library only supports ***.csv files*** that follows the specific structure [Example .csv](https://github.com/guilhermehuther/whatsapp_automatic_sender/blob/main/example.csv).
+* The library only supports ***.csv files*** that follows the specific structure [example .csv](https://github.com/guilhermehuther/whatsapp_automatic_sender/blob/main/example.csv).
 
 * The header must be *Message;NumberOrGroup;photo_path*
 
@@ -45,4 +45,4 @@ pip install whatsappas
 
 * Paths for the photos must be full *C:\Users\CURRENT_USER\Desktop* or *blank* if you just want the message to be sent.
 
-* Cellphone numbers can vary from country to country so be aware of how the Whatsapp API uses your cellphone number pattern in your country [Explication example for Brazilian numbering](https://faq.whatsapp.com/5913398998672934/). In the .csv example file has the USA and Brazil patterns of cellphone number usage respectively.
+* Cellphone numbers can vary from country to country so be aware of how the Whatsapp API uses your cellphone number pattern in your country [explication example for Brazilian numbering](https://faq.whatsapp.com/5913398998672934/). In the .csv example file has the USA and Brazil patterns of cellphone number usage respectively.
