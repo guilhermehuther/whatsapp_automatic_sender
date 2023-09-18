@@ -41,6 +41,8 @@ pip install whatsappas
 
 * The header must be *Message;NumberOrGroup;photo_path*
 
+* In the *Message* string the '&' represent a **newline**
+
 * The *separator* in the csv must be '*;*' (semicolon).
 
 * Paths for the photos must be full *C:\Users\CURRENT_USER\Desktop* or *blank* if you just want the message to be sent.
